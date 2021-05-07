@@ -71,7 +71,6 @@ body {
     margin-top: 160px;
     padding-top: 60px;
     padding-bottom: 60px;
-
 }
 
 .features .container {
@@ -88,6 +87,11 @@ body {
 
     .features .container {
         grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    }
+
+    .features {
+        margin-top: -30px;
+
     }
 }
 
