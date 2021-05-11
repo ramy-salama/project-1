@@ -81,8 +81,9 @@ body {
 
 @media (max-width: 992px) {
     body {
-        background-image: none;
-        background-color: #103892;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: #2c5dac;
     }
 
     .features .container {
@@ -90,7 +91,7 @@ body {
     }
 
     .features {
-        margin-top: -30px;
+        margin-top: 90px;
 
     }
 }
